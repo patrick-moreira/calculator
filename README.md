@@ -1,2 +1,2 @@
 # calculator
-![Optional Text](../master/src/calculator.png)
+![Optional Text](../master/src/calculator.jpeg)
