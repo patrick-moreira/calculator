@@ -1,11 +1,36 @@
 import React from 'react';
-import { View, Text } from 'react-native';
+import { Container, Content, ContentNumbers, Number, Text} from './styles';
 
 const Calculator = () => {
   return (
-    <View style={{flex:1, justifyContent: 'center', alignItems: 'center'}}>
-      <Text>Calculator</Text>
-    </View>
+    <Container>
+      <Content>
+        <ContentNumbers>
+          <Number><Text>7</Text></Number>
+          <Number><Text>4</Text></Number>
+          <Number><Text>2</Text></Number>
+          <Number><Text>.</Text></Number>        
+        </ContentNumbers>
+        <ContentNumbers>
+          <Number><Text>8</Text></Number>
+          <Number><Text>5</Text></Number>
+          <Number><Text>2</Text></Number>
+          <Number><Text>0</Text></Number>
+        </ContentNumbers>
+        <ContentNumbers>
+          <Number><Text>9</Text></Number>
+          <Number><Text>6</Text></Number>
+          <Number><Text>3</Text></Number>
+          <Number><Text>=</Text></Number>
+        </ContentNumbers>
+        <ContentNumbers>
+          <Number><Text>/</Text></Number>
+          <Number><Text>x</Text></Number>      
+          <Number><Text>-</Text></Number>
+          <Number><Text>+</Text></Number>
+        </ContentNumbers>
+      </Content>
+    </Container>
   );
 }
 
