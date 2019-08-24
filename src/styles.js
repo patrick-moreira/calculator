@@ -27,3 +27,21 @@ export const Text = styled.Text`
     text-align: center;
     font-size: 36;
 `;
+
+export const Result = styled.Text`
+    color: #fff;
+    background-color: #666;
+    text-align: right;
+    margin: 10px;
+    padding: 16px;
+    font-size: 36;
+`;
+
+export const ContainerResult = styled.View`
+    flex-direction: row;
+    margin: 10px;
+    justify-content: space-between;     
+    background-color: #666;
+    text-align: right;
+    font-size: 36;
+`;
